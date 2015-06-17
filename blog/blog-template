@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<head>
+  <title>Your page title here</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="your-stylesheet-link-here.css">
+</head>
+
+<main>
+  <h1>HTML & CSS Design</h1>
+  <h2>Inline vs. Inline Blocks</h2>
+  <h4>June 17, 2015</h4>
+
+  <section>
+    <p>
+      The purpose of this blog is to teach the use and differences between inline and inline block. CSS is a very powerful tool used for designing and beautifying HTML text. With different elements on a page, both inline and inline-block are commands that help organize the basic structure of a page. </p>
+
+      <p> Inline is used to display each element in a horizontal line, as follows: </p>
+
+      <p>![Inline Example](Inline.png) </p>
+
+      <p>As demonstrated above, the inline command takes each element and places them in horizontal accordance with one another. We call on this format using the following syntax: </p>
+     
+      <p>tag { </p>
+        <p> display:inline; </p>
+      <p>}</p>
+
+      <p> Inline-block is very similar to inline, however it blocks off each separate element as it's own entity, instead of letting it all mush into one giant block. An example of what this looks like: </p>
+      <p> ![Inline-Block](Inline-block.png) </p>
+
+      <p> We call on this format using the following syntax: </p>
+
+      <p>tag {</p>
+           <p> display:inline-block; </p>
+        <p>}
+
+
+<p>Hopefully this gives a clear understanding of the difference between CSS's Inline and Inline-block commands, and how to use them. </p>
+    
+
+      <!-- copy and paste as many sections as you want to add paragraphs -->
+  </section>
+</main>
