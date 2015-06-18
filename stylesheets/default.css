@@ -1,0 +1,14 @@
+* {
+	background-color: black;
+	font-family: Arial;
+}
+
+div h3 {
+	font-style: strong;
+}
+
+ul {
+	display:inline-block;
+	width:100%;
+	font-color:white;
+}
