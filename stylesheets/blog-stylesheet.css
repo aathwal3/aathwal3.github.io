@@ -1,8 +1,9 @@
 * {
 	font-family: arial;
+	background-color: silver
 	}
-#header {
-	background-color: silver;
+head {
+	background-color: pink;
 	width:100%;
 	margin: 0px;
 }
