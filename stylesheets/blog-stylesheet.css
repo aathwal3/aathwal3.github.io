@@ -1,8 +1,8 @@
 * {
 	font-family: arial;
-	background-color: silver
 	}
-head {
+
+.header {
 	background-color: pink;
 	width:100%;
 	margin: 0px;
@@ -18,10 +18,7 @@ h2 {
 	font-style: italic;
 	font-family:"Gloria Hallelujah";
 }
-}
-ul {
-	background-color: pink;
-}
+
 
 li {
 	display:inline-block;
@@ -40,7 +37,8 @@ div {
 a:link {
 	color:blue;
 }
-#blogs-title {
+
+.blogs-title {
 	font-family: Arial;
 	font-size: 24px;
 	text-align: center;
@@ -49,10 +47,10 @@ a:link {
 	width:500px;
 }
 
-ul.list-of-blogs {
+ol.list-of-blogs {
 	font-size: 15px;
 	text-align: left;
-	display: block;
+	
 
 }
 #block {
