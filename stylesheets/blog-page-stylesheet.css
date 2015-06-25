@@ -3,9 +3,11 @@
 	}
 
 header {
-	background-color: silver;
-	width:100%;
+	background-color: pink;
+	width:99%;
 	margin: 0px;
+	padding: 3px;
+	border: 2px solid black;
 }
 
 h1 {
