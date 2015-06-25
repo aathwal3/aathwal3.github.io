@@ -1,12 +1,13 @@
 * {
 	font-family: arial;
-	background-color: silver
 	}
 
-#header {
-	background-color: white;
-	width:100%;
+header {
+	background-color: pink;
+	width:99%;
 	margin: 0px;
+	padding: 3px;
+	border: 2px solid black;
 }
 
 h1 {
