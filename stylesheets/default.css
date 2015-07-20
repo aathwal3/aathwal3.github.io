@@ -2,7 +2,7 @@
 	font-family: arial;
 	}
 #header {
-	background-color: silver;
+	background-color: pink;
 	width:100%;
 	margin: 0px;
 }
@@ -78,6 +78,13 @@ a:link {
         display: block;
     }
 }
+
+ol {
+    display: none;
+    background: none;
+    text-align: left;
+}
+
 #blurb {
 	font-family: Arial;
 	background-color: #FFE3F6;

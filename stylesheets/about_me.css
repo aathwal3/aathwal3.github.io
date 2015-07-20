@@ -1,0 +1,46 @@
+
+#header {
+    background-color: pink;
+    width:100%;
+    margin: 0px;
+    font-family:Arial;
+}
+
+body {
+    font-family:Arial;
+}
+
+ul {
+    background-color: pink;
+}
+
+.titlebar {
+    display:inline-block;
+    width:15%;
+    font-weight: bold;
+    font-family:Arial;
+}
+
+
+#background {
+    width = 50%;
+}
+
+a:link {
+    color:blue;
+}
+
+
+#me {
+    position: center;
+    font-weight: bolder;
+    font-family:courier;
+    font-size: 30px;
+}
+
+#footer {
+    background-color: pink;
+    width:100%;
+    background-position: left;
+    height: 50px;
+}
