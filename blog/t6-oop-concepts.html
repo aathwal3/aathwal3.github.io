@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<head>
+  <title>Amrita's Blogs</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/t6-stylesheet.css">
+</head>
+
+<main>
+<header>
+  <h1>Object Oriented Programming</h1>
+  <h2>Variable Scope</h2>
+  <h4>July 24, 2015</h4>
+</header>
+
+  <section>
+    <p>
+    Developing in the Ruby language means engaging in <i>Object Oriented Programming (OOP)</i>. More or less, everything we interact with in Ruby is an object (except for blocs, procs, and lambdas but that's another conversation for another time), and these objects interact with one another via messages. We use variables, which inherit properties from their parent objects (again, another blog for another time), but there are different types of variables that are defined, accessible, and written in their own specific way. The below table is a cheat sheet of the different types of Ruby variables and their scope:  
+    </p>
+    <p>
+    <table border=1 frame=hsides rules=rows>
+      <thead>
+        <tr> <th colspan = "6" id= "table-title">Ruby Variable Scope Cheat-Sheet </th></tr>
+      </thead>
+
+      <tbody>
+      <tr class = "row-1">
+        <td>Global Variables </td> <td> Class Variables </td> <td>Instance Variables </td> <td>Local Variables</td> <td>Constants </td> <td> Pseudo-Variables </td>
+      </tr>
+      <tr class = "variable_description">
+        <td><ol>
+          <li>Written with $ ie. $global_variable</li>
+          <li>Accessible <i>everywhere</i> </li>
+          <li>Considered <b>dangerous</b> to alter </li>
+          </ol></td>
+
+          <td><ol>
+            <li>Written with @@ ie. @@class_variable</li>
+            <li>Accesible amongst different classes and modules </li>
+            <li>Value remains the same across different instances of the class</li>
+            <li>Must be initialized, else have value <i>error</i> </li>
+            </ol></td>
+
+          <td><ol>
+            <li>Written with @ ie. @instance_variable</li>
+            <li>Accesible amongst different classes and modules </li>
+            <li>Gives the value of each instance of the class </li>
+            <li>Must be initialized, else gives an <i>nil</i> </li>
+            </ol></td>
+
+          <td><ol>
+            <li>begin with a lowercase letter or _ ie. local_variable</li>
+            <li>Accesible within method, class, module, or def </li>
+            <li>Gives a single value </li>
+          </ol></td>
+
+           <td><ol>
+            <li>begin with a uppercase</li>
+            <li>Accesible within class or module if defined within class or module, else accessible globally </li>
+            <li>May not be defined within methods</li>
+            <li>Assigning a constant that's already initialized produces a warning</li>
+          </ol></td>
+
+          <td><ol>
+            <li>Cannot assign values to these variables</li>
+            <li>Appear as local variables, but behave like constants</li>
+          </ol></td>
+      </tr>
+
+      <tr>
+        <td><img src="t6_imgs/global_1.png" /></td>
+        <td><img src="t6_imgs/class_1.png" /></td>
+        <td><img src="t6_imgs/instance_1.png" /></td>
+        <td><img src="t6_imgs/local_1.png" /></td>
+        <td><img src="t6_imgs/constant_1.png" /></td>
+        <td><img src="t6_imgs/pseudo_1.png" /></td>
+      </tr>
+
+      <tr>
+        <td><img src="t6_imgs/global_2.png" /></td>
+        <td><img src="t6_imgs/class_2.png" /></td>
+        <td><img src="t6_imgs/instance_2.png" /></td>
+        <td><img src="t6_imgs/local_2.png" /></td>
+        <td><img src="t6_imgs/constant_2.png" /></td>
+        <td></td>
+      </tr>
+
+      </tbody>
+      </table>
+      <p>
+      And that's pretty much the scope of Ruby variables in a nutshell, enjoy!
+
+
+
+
+
+         </tbody>   
+            
+
+    </table>  
+      
+  
+
+    
+<div id="footer"><a href ="#">Contact Me</a></div>
+    
+  </section>
+</main>

@@ -2,10 +2,11 @@
 	font-family: arial;
 	}
 
-.header {
+header {
 	background-color: pink;
 	width:100%;
 	margin: 0px;
+	border: 3px solid black;
 }
 
 h1 {
@@ -20,42 +21,38 @@ h2 {
 }
 
 
-.titlebar {
-	display:inline-block;
-	width:15%;
-	font-weight: bold;
-}
-
-img {
-	margin-top:10px;
-}
-
-div {
-	display: inline-block;
-}
-
 a:link {
 	color:blue;
 }
 
-.blogs-title {
+table {
+	border: 1px thin solid black;
+}
+
+
+#table-title {
 	font-family: Arial;
-	font-size: 24px;
+	font-size: 16px;
 	text-align: center;
 	background-color: #FFE3F6;
-	height: 325px;
-	width:500px;
+	height: 50px;
+	width: 100%;
+	font-weight: bold;
 }
 
-.list-of-blogs {
-	font-size: 12px;
-	text-align: left;
-	
+.row-1 {
+	font-weight: bold;
 
 }
-#block {
-	background-color: dark pink;
-	width:50px;
+
+img {
+	width: 200px;
+	height:150px;
+}
+
+
+.variable_description {
+	font-size: 10px
 }
 
 #footer {
