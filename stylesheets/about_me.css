@@ -1,5 +1,5 @@
 
-#header {
+head {
     background-color: pink;
     width:100%;
     margin: 0px;
@@ -10,15 +10,12 @@ body {
     font-family:Arial;
 }
 
-ul {
-    background-color: pink;
-}
+
 
 .titlebar {
     display:inline-block;
     width:15%;
     font-weight: bold;
-    font-family:Arial;
 }
 
 
@@ -36,6 +33,7 @@ a:link {
     font-weight: bolder;
     font-family:courier;
     font-size: 30px;
+    background-color: pink;
 }
 
 #footer {
