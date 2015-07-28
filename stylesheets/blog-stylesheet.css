@@ -3,9 +3,9 @@
 	}
 
 .header {
-	background-color: pink;
 	width:100%;
 	margin: 0px;
+    background-color: #CC0066;
 }
 
 h1 {
@@ -27,7 +27,7 @@ h2 {
 }
 
 img {
-	margin-top:10px;
+	margin-left: 20px;
 }
 
 div {
@@ -42,7 +42,7 @@ a:link {
 	font-family: Arial;
 	font-size: 24px;
 	text-align: center;
-	background-color: #FFE3F6;
+	background-color:#E8E8E8 ;
 	height: 325px;
 	width:500px;
 }
@@ -59,8 +59,11 @@ a:link {
 }
 
 #footer {
-	background-color: pink;
+	background-color: #CC0066;
 	width:100%;
 	background-position: left;
-	height: 50px;
+	height: 100px;
+    padding: 0px;
+    margin-bottom: 0px;
+    border:0px;
 }

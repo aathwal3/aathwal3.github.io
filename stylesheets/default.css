@@ -1,10 +1,11 @@
 * {
 	font-family: arial;
-	}
+    }
+
 #header {
-	background-color: pink;
 	width:100%;
 	margin: 0px;
+    background-color: #CC0066
 }
 
 h1 {
@@ -15,12 +16,10 @@ h1 {
 h2 {
 	font-size: 18px;
 	font-style: italic;
-	font-family:"Gloria Hallelujah";
+	font-family:courier;
 }
 
-ul {
-	background-color: pink;
-}
+
 
 li {
 	display:inline-block;
@@ -28,10 +27,6 @@ li {
 	font-weight: bold;
 }
 
-img {
-	margin-top:10px;
-	
-}
 
 div {
 	display: inline-block;
@@ -79,6 +74,12 @@ a:link {
     }
 }
 
+span {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: courier;
+}
+
 ol {
     display: none;
     background: none;
@@ -86,15 +87,21 @@ ol {
 }
 
 #blurb {
-	font-family: Arial;
-	background-color: #FFE3F6;
-	height: 325px;
-	width:500px;
+	font-family: courier;
+	background-color:#E8E8E8  ;
+	height: 375px;
+	width:550px;
+}
+img {
+    margin-left: 100px;
 }
 
 #footer {
-	background-color: pink;
+	background-color: #CC0066;
 	width:100%;
 	background-position: left;
-	height: 50px;
+	height: 100px;
+    padding: 0px;
+    margin-bottom: 0px;
+    border:0px;
 }
