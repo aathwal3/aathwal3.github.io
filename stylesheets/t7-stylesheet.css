@@ -1,0 +1,63 @@
+* {
+	font-family: arial;
+	}
+
+header {
+	background-color: pink;
+	width:100%;
+	margin: 0px;
+	border: 3px solid black;
+}
+
+h1 {
+	font-size:24px;
+	text-align: left;
+	border-spacing: 100%;
+}
+h2 {
+	font-size: 18px;
+	font-style: italic;
+	font-family:"Gloria Hallelujah";
+}
+
+
+a:link {
+	color:blue;
+}
+
+table {
+	border: 1px thin solid black;
+}
+
+
+#table-title {
+	font-family: Arial;
+	font-size: 16px;
+	text-align: center;
+	background-color: #FFE3F6;
+	height: 50px;
+	width: 100%;
+	font-weight: bold;
+}
+
+.row-1 {
+	font-weight: bold;
+
+}
+
+img {
+	width: 300px;
+	height:250px;
+}
+
+
+.variable_description {
+	font-size: 12px
+}
+
+#footer {
+	background-color: pink;
+	width:100%;
+	background-position: left;
+	height: 50px;
+}
