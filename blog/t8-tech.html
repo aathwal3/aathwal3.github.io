@@ -8,79 +8,63 @@
 <main>
 <header>
   <h1>Tech Blog</h1>
-  <h2>How Does the Internet Work?</h2>
-  <h4>August 7, 2015</h4>
+  <h2>SQL Query Optimization</h2>
+  <h4>August 9, 2015</h4>
 </header>
 
   <section>
-    <p>I definitely took Ruby for granted before learning a bit more of JavaScript. The syntax of JS is a lot less friendly than Ruby, and a lot less forgiving. Loops are essential for having your code iterate, and looping is a bit more limited in JS than it is in Ruby. 
+    <p>SQL statements are used to retrieve data from databases. To optimize/tune the process of retrieving data, we must consider performance. There are many different statements that can be written to retrieve the same data, and in order to optimize or tune to performance of retrieval, there are some different queries we can choose to us.
     </p>
 
     <p>
-    <table border=1 frame=hsides rules=rows>
-      <thead>
-        <tr> <th colspan = "2" id= "table-title">Ruby Looping vs. JavaScript Looping </th></tr>
-      </thead>
+    Below is a list of ten dos and don'ts in order to optimize your SQL performance: 
+    </p>
 
-      <tbody>
-      <tr> <td>Ruby</td> <td> Javascript </td> 
-      </tr>
+    <ol>
+      <li>SELECT actual column names instead of using the * function
+        <pre class = "example"><b>ie.</b>    
+        SELECT column_name 
+        FROM title_name   
 
-      <tr class = "variable_description">
-        <td><ol>
-          <li>can us .each to iterate through data </li>
-          <li>include for loops, while loops </li>
-          </ol></td>
+          <i>instead of </i> 
 
-          <td><ol>
-            <li>No .each built in method available</li>
-            <li>Also includes for and while loops</li>
-            </ol></td>
-
-      <tr>
-            <td>
-            <img src="RubyForLoop.png"/ >
-            </td>
-
-          <td>
-            <img src="jsForLoop.png"/ >
-          </td>
-      </tr>
-      <tr>
-          <td>
-            <img src="rubyWhileLoop.png"/ >
-            </td>
-
-          <td>
-            <img src="jsWhileLoop1.png"/ >
-          </td>
-
-      
-          </ol></td>
-      </tr>
-
-  
-
-      </tbody>
-      </table>
-      <p>
-      These two loops more or less perform the same function. They go through each item in a given range and do something to each of those items. The only real difference is the syntax of how they're written. The other major difference is the scope of variables amongst JS and Ruby. In JS, any variable defined within a function is local to only that function and if any variable is defined outside of a function it is then a global variables. In Ruby, the scope of variables largely differs, and for a more concise index of each of these scopes please reference my past blog on<a href= "t6-oop-concepts.html"> ruby variables scope </a></p>
+        SELECT * 
+        FROM title_name</pre></li>
+      <li>Use <span class= "example">HAVING</span> as a clause to filter selected data 
+      <pre class= "example"><b>ie.</b>    SELECT column_name  
+      FROM title_name 
+      HAVING specific_attributes </pre></li>
+      <li>Try to minimize the amount of sub query within in the query</li>
+      <li>Be careful using the operators <span class= "example">EXIST, IN and table joins </span> correctly 
+        <ul>
+          <li><span class= "example">IN</span> is one of the slowest operators- so avoid using it</li>
+          <li><span class= "example">IN</span> is most appropriate when most of the information is held within the subquery</li>
+          <li><span class= "example">EXISTS</span> is most appropriate when most of the information is held in the query</li>
+        </ul></li>
+      <li>In tables that have one-to-many relationships, use EXIST instead of DISTINCT </li>
+      <li>Use <span class= "example">UNION ALL</span> instead of <span class= "example"> UNION</span> </li>
+      <li>Be careful using the <span class= "example"> WHERE </span>clause, and try to make <span class= "example"> WHERE </span>statements less specific so it has less to process</li>
+      <li>Use <span class= "example">DECODE </span> to avoid repetitively scanning the same rows </li>
+      <li>Avoid storing large binary objects directly into the database, instead create a separate file and store the file path to minimize processing </li>
+      <li>Syntax Rules: 
+        <ul> 
+          <li>Single space all SQL verbs </li>
+          <li>Single case for all SQL verbs </li>
+          <li>Being all SQL verbs on a new line (unlike my examples above)</li>
+          <li>Align SQL verbs left or right all starting with the verb </li>
+        </ul>
+      </li>
 
 
-
-
-
-
-         </tbody>   
-            
-
-    </table>  
+    </ol>
+    <p>These ten basic rules, courtesy of http://beginner-sql-tutorial.com/sql-query-tuning.htm will help optimize and tune your SQL so that the data can be retrieved and processed most efficiently. 
       
   
 
     
-<div id="footer"><a href ="SocialMedia.html">Contact Me</a></div>
+<div id="footer"><a href =" ../SocialMedia.html">Contact Me</a></div>
     
   </section>
 </main>
+
 

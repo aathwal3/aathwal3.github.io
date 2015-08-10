@@ -55,6 +55,15 @@ img {
 	font-size: 12px
 }
 
+ol {
+	background-color:#D8D8D8 ;
+	border: 0.3em solid black;
+}
+
+.example {
+	font-family:courier;
+}
+
 #footer {
 	background-color: pink;
 	width:100%;
