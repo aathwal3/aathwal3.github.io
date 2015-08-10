@@ -1,8 +1,5 @@
-* {
-	font-family: arial;
-	}
 
-header {
+head {
 	background-color: pink;
 	width:99%;
 	margin: 0px;
@@ -19,7 +16,6 @@ h2 {
 	font-size: 18px;
 	font-style: italic;
 	font-family:"Gloria Hallelujah";
-}
 }
 ul {
 	background-color: pink;

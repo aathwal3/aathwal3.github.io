@@ -1,23 +1,64 @@
 
-head {
-    background-color: pink;
-    width:100%;
-    margin: 0px;
-    font-family:Arial;
-}
-
-body {
-    font-family:Arial;
-}
-
-
-
 .titlebar {
     display:inline-block;
     width:15%;
     font-weight: bold;
 }
 
+body {
+    font-family:Arial;
+}
+
+#background {
+    float: left;
+    background-color: #E8E8E8 ;
+    width: 50%;
+    border: 0.2em solid black;
+}
+
+#hobbies {
+    float:right;
+    text-align: right;
+    background-color: #E8E8E8 ;
+    width: 50%;
+    border: 0.2em solid black;
+    padding-right: 10px; 
+    margin-top:10px;
+
+}
+
+#facts {
+    clear: both;
+    background-color: #E8E8E8 ;
+    width: 50%;
+    border: 0.2em solid black;
+}
+
+.favorites {
+    font-weight:bold;
+}
+
+#flag {
+    height:10px;
+}
+
+img {
+    height:500px;
+    padding:0px;
+}
+
+#old {
+    float: right;
+}
+
+#young {
+    float:left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left:10px;
+    width: 400px;
+    height: 400px;
+}
 
 #background {
     width = 50%;
@@ -43,5 +84,6 @@ a:link {
     height: 60px;
     padding: 0px;
     border: 0px;
+    bottom: 0px;
 
 }
