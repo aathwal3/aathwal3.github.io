@@ -1,0 +1,144 @@
+* {
+	font-family: arial;
+    }
+
+#header {
+	width:100%;
+	margin: 0px;
+    background-color: #CC0066
+}
+
+h1 {
+	font-size:24px;
+	text-align: left;
+	border-spacing: 100%;
+}
+h2 {
+	font-size: 18px;
+	font-style: italic;
+	font-family:courier;
+}
+
+
+
+li {
+	display:inline-block;
+	width:15%;
+	font-weight: bold;
+}
+
+td {
+    width: 50%;
+    height:50%;
+}
+
+a:hover {
+    background-color:grey;
+
+}
+div {
+	display: inline-block;
+}
+
+a:link {
+	color:blue;
+}
+.dropdown {
+	<style type="text/css">
+    ul{
+        padding: 0;
+        list-style: none;
+        background: #f2f2f2;
+    }
+    ul li{
+        display: inline-block;
+        position: relative;
+        line-height: 21px;
+        text-align: left;
+    }
+    ul li a{
+        display: block;
+        padding: 8px 25px;
+        color: #333;
+        text-decoration: none;
+    }
+    ul li a:hover{
+        color: #fff;
+        background: #939393;
+    }
+    ul li ul.dropdown{
+        min-width: 125px; /* Set width of the dropdown */
+        background: #f2f2f2;
+        display: none;
+        position: absolute;
+        z-index: 999;
+        left: 0;
+    }
+    ul li:hover ul.dropdown{
+        display: block;	/* Display the dropdown */
+    }
+    ul li ul.dropdown li{
+        display: block;
+    }
+}
+
+
+ol {
+    display: none;
+    background: none;
+    text-align: left;
+}
+
+
+img {
+    width: 300px;
+    height:200px;
+}
+
+table {
+    font-size: 10px;
+}
+p {
+    font-position: center;
+}
+#footer {
+	background-color: #CC0066;
+	width:100%;
+	background-position: left;
+	height: 100px;
+    padding: 0px;
+    margin-bottom: 0px;
+    border:0px;
+}
+
+
+/*hoover*/
+#container {
+  width: 600px;
+  margin: 50px auto;
+}
+
+a {
+  float: left;
+  position: relative;
+}
+
+a img {
+  display: block;
+}
+
+a span {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(0,0,0,0.6);
+  color: #ddd;
+  padding: 20px;
+}
+
+a:hover span {
+  display: block;
+}

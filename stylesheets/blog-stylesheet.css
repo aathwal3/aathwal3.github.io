@@ -27,7 +27,9 @@ h2 {
 }
 
 img {
-	margin-left: 20px;
+	margin-left: 0px;
+	width: 580px;
+	height:323px;
 }
 
 div {
