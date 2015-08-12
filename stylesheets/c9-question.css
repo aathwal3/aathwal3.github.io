@@ -26,8 +26,8 @@ ul {
 
 
 body {
-    margin-top: -80px;
     background-image: url("../blog/question.jpg");
+    background-image: margin-top -80;
     background-repeat: no-repeat;
     background-color: rgba(255, 255, 255, .7);
     background-blend-mode: color;
